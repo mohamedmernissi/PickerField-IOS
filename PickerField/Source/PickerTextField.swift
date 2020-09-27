@@ -20,6 +20,7 @@ class PickerTextField : UITextField {
     var barButtonTint = UIColor.blue
     var barButtonText = "Ok"
     var data = [String]()
+    var selectedValue : String?
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -80,5 +81,6 @@ class PickerTextField : UITextField {
 extension PickerTextField : PickerSourceDelegate{
     func didSelectItem(item: String) {
         self.text = item
+        self.selectedValue = item
     }
 }

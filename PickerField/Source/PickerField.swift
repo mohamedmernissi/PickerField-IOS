@@ -10,7 +10,7 @@ import UIKit
 class PickerField: UIView {
     
     @IBOutlet var imgDropDown : UIImageView!
-    @IBOutlet var txtEdit : PickerTextField!
+    @IBOutlet var txtPicker : PickerTextField!
 
     @IBInspectable var imageDropDown: UIImage
     {
@@ -26,22 +26,29 @@ class PickerField: UIView {
     @IBInspectable var Placeholder: String
     {
         get {
-            return txtEdit.placeholder ?? ""
+            return txtPicker.placeholder ?? ""
         }
         set {
-            txtEdit.placeholder = newValue
+            txtPicker.placeholder = newValue
         }
     }
     
     @IBInspectable var barButtonTitle: String
     {
         get {
-            return txtEdit.barButtonText
+            return txtPicker.barButtonText
         }
         set {
-            txtEdit.barButtonText = newValue
+            txtPicker.barButtonText = newValue
         }
     }
+    
+    var selectedValue : String?{
+        get{
+            return self.txtPicker.selectedValue
+        }
+    }
+    
     
     var data = [String]()
     
@@ -50,7 +57,17 @@ class PickerField: UIView {
         super.awakeFromNib()
         // Initialization code
         
-        txtEdit.data = self.data
+        txtPicker.data = self.data
+    }
+    
+    required init?(coder aDecoder: NSCoder)
+    {
+        super.init(coder: aDecoder)
+    }
+    
+    override init(frame: CGRect)
+    {
+        super.init(frame: frame)
     }
     
 }

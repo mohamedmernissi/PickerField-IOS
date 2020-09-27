@@ -29,7 +29,7 @@
                                 <constraint firstAttribute="width" constant="50" id="Qrk-Zg-Vl4"/>
                             </constraints>
                         </imageView>
-                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gnn-oX-cnd" customClass="PickerTextField" customModule="Chefy" customModuleProvider="target">
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gnn-oX-cnd" customClass="PickerTextField" customModule="PickerField" customModuleProvider="target">
                             <rect key="frame" x="60" y="0.0" width="354" height="50"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
@@ -75,7 +75,7 @@
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="imgDropDown" destination="iUs-Ps-KUE" id="CqN-1C-1dI"/>
-                <outlet property="txtEdit" destination="Gnn-oX-cnd" id="6mF-S0-sbo"/>
+                <outlet property="txtPicker" destination="Gnn-oX-cnd" id="6mF-S0-sbo"/>
             </connections>
             <point key="canvasLocation" x="216" y="-10"/>
         </view>
