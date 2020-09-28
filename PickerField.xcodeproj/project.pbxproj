@@ -11,16 +11,19 @@
 		2E6DBF362520E1BE001F5545 /* PickerField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E6DBF2C2520E1BE001F5545 /* PickerField.framework */; };
 		2E6DBF3B2520E1BE001F5545 /* PickerFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6DBF3A2520E1BE001F5545 /* PickerFieldTests.swift */; };
 		2E6DBF3D2520E1BE001F5545 /* PickerField.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6DBF2F2520E1BE001F5545 /* PickerField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E6DBF4A2520E223001F5545 /* PickerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6DBF482520E223001F5545 /* PickerTextField.swift */; };
-		2E6DBF4B2520E223001F5545 /* PickerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6DBF482520E223001F5545 /* PickerTextField.swift */; };
-		2E6DBF4C2520E224001F5545 /* Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6DBF492520E223001F5545 /* Picker.swift */; };
-		2E6DBF4D2520E224001F5545 /* Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6DBF492520E223001F5545 /* Picker.swift */; };
-		2E6DBF542520E29D001F5545 /* PickerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6DBF522520E29D001F5545 /* PickerField.swift */; };
-		2E6DBF552520E29D001F5545 /* PickerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6DBF522520E29D001F5545 /* PickerField.swift */; };
-		2E6DBF562520E29D001F5545 /* PickerField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E6DBF532520E29D001F5545 /* PickerField.xib */; };
-		2E6DBF572520E29D001F5545 /* PickerField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E6DBF532520E29D001F5545 /* PickerField.xib */; };
 		2E6DBF5E2520E361001F5545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E6DBF5D2520E361001F5545 /* Assets.xcassets */; };
 		2E6DBF5F2520E361001F5545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E6DBF5D2520E361001F5545 /* Assets.xcassets */; };
+		2E6DC01825216460001F5545 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6DC00F2521645F001F5545 /* ViewController.swift */; };
+		2E6DC01925216460001F5545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E6DC0102521645F001F5545 /* Assets.xcassets */; };
+		2E6DC01A25216460001F5545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6DC0112521645F001F5545 /* LaunchScreen.storyboard */; };
+		2E6DC01B25216460001F5545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6DC0132521645F001F5545 /* Main.storyboard */; };
+		2E6DC01C25216460001F5545 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6DC0152521645F001F5545 /* AppDelegate.swift */; };
+		2E6DC01D25216460001F5545 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E6DC0162521645F001F5545 /* Info.plist */; };
+		2E6DC01E25216460001F5545 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6DC0172521645F001F5545 /* SceneDelegate.swift */; };
+		2E6DC02625216480001F5545 /* PickerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6DC02225216480001F5545 /* PickerTextField.swift */; };
+		2E6DC02725216480001F5545 /* PickerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6DC02325216480001F5545 /* PickerField.swift */; };
+		2E6DC02825216480001F5545 /* PickerField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E6DC02425216480001F5545 /* PickerField.xib */; };
+		2E6DC02925216480001F5545 /* Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6DC02525216480001F5545 /* Picker.swift */; };
 		C3E86FC47EA9E95F0DEAB066 /* Pods_PickerField_PickerFieldTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F5A5D5F1ADDB0DFE44291F /* Pods_PickerField_PickerFieldTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,11 +46,18 @@
 		2E6DBF352520E1BE001F5545 /* PickerFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickerFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E6DBF3A2520E1BE001F5545 /* PickerFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerFieldTests.swift; sourceTree = "<group>"; };
 		2E6DBF3C2520E1BE001F5545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E6DBF482520E223001F5545 /* PickerTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerTextField.swift; sourceTree = "<group>"; };
-		2E6DBF492520E223001F5545 /* Picker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Picker.swift; sourceTree = "<group>"; };
-		2E6DBF522520E29D001F5545 /* PickerField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerField.swift; sourceTree = "<group>"; };
-		2E6DBF532520E29D001F5545 /* PickerField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PickerField.xib; sourceTree = "<group>"; };
 		2E6DBF5D2520E361001F5545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E6DC00F2521645F001F5545 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E6DC0102521645F001F5545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E6DC0122521645F001F5545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E6DC0142521645F001F5545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E6DC0152521645F001F5545 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E6DC0162521645F001F5545 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E6DC0172521645F001F5545 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2E6DC02225216480001F5545 /* PickerTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerTextField.swift; sourceTree = "<group>"; };
+		2E6DC02325216480001F5545 /* PickerField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerField.swift; sourceTree = "<group>"; };
+		2E6DC02425216480001F5545 /* PickerField.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickerField.xib; sourceTree = "<group>"; };
+		2E6DC02525216480001F5545 /* Picker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Picker.swift; sourceTree = "<group>"; };
 		55379CE836B06C7D2CED912C /* Pods-PickerField-PickerFieldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickerField-PickerFieldTests.release.xcconfig"; path = "Target Support Files/Pods-PickerField-PickerFieldTests/Pods-PickerField-PickerFieldTests.release.xcconfig"; sourceTree = "<group>"; };
 		5CCCAB3395C12D57C856955D /* Pods-PickerField-PickerFieldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickerField-PickerFieldTests.debug.xcconfig"; path = "Target Support Files/Pods-PickerField-PickerFieldTests/Pods-PickerField-PickerFieldTests.debug.xcconfig"; sourceTree = "<group>"; };
 		65F5A5D5F1ADDB0DFE44291F /* Pods_PickerField_PickerFieldTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickerField_PickerFieldTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +90,7 @@
 			children = (
 				2E6DBF2E2520E1BE001F5545 /* PickerField */,
 				2E6DBF392520E1BE001F5545 /* PickerFieldTests */,
+				2E6DC00E2521645F001F5545 /* PickerFieldExample */,
 				2E6DBF2D2520E1BE001F5545 /* Products */,
 				755A15ADCB7ACD87F769B9DC /* Pods */,
 				EABC4F8DA08B500122965419 /* Frameworks */,
@@ -99,10 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				2E6DBF2F2520E1BE001F5545 /* PickerField.h */,
-				2E6DBF492520E223001F5545 /* Picker.swift */,
-				2E6DBF482520E223001F5545 /* PickerTextField.swift */,
-				2E6DBF522520E29D001F5545 /* PickerField.swift */,
-				2E6DBF532520E29D001F5545 /* PickerField.xib */,
+				2E6DC02125216480001F5545 /* Source */,
 				2E6DBF5A2520E2D7001F5545 /* Resources */,
 				2E6DBF302520E1BE001F5545 /* Info.plist */,
 			);
@@ -126,6 +134,31 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		2E6DC00E2521645F001F5545 /* PickerFieldExample */ = {
+			isa = PBXGroup;
+			children = (
+				2E6DC00F2521645F001F5545 /* ViewController.swift */,
+				2E6DC0102521645F001F5545 /* Assets.xcassets */,
+				2E6DC0112521645F001F5545 /* LaunchScreen.storyboard */,
+				2E6DC0132521645F001F5545 /* Main.storyboard */,
+				2E6DC0152521645F001F5545 /* AppDelegate.swift */,
+				2E6DC0162521645F001F5545 /* Info.plist */,
+				2E6DC0172521645F001F5545 /* SceneDelegate.swift */,
+			);
+			path = PickerFieldExample;
+			sourceTree = "<group>";
+		};
+		2E6DC02125216480001F5545 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2E6DC02225216480001F5545 /* PickerTextField.swift */,
+				2E6DC02325216480001F5545 /* PickerField.swift */,
+				2E6DC02425216480001F5545 /* PickerField.xib */,
+				2E6DC02525216480001F5545 /* Picker.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		755A15ADCB7ACD87F769B9DC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,7 +167,6 @@
 				5CCCAB3395C12D57C856955D /* Pods-PickerField-PickerFieldTests.debug.xcconfig */,
 				55379CE836B06C7D2CED912C /* Pods-PickerField-PickerFieldTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -242,7 +274,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E6DBF5E2520E361001F5545 /* Assets.xcassets in Resources */,
-				2E6DBF562520E29D001F5545 /* PickerField.xib in Resources */,
+				2E6DC01B25216460001F5545 /* Main.storyboard in Resources */,
+				2E6DC01D25216460001F5545 /* Info.plist in Resources */,
+				2E6DC01A25216460001F5545 /* LaunchScreen.storyboard in Resources */,
+				2E6DC01925216460001F5545 /* Assets.xcassets in Resources */,
+				2E6DC02825216480001F5545 /* PickerField.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +287,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E6DBF5F2520E361001F5545 /* Assets.xcassets in Resources */,
-				2E6DBF572520E29D001F5545 /* PickerField.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,9 +344,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E6DBF542520E29D001F5545 /* PickerField.swift in Sources */,
-				2E6DBF4A2520E223001F5545 /* PickerTextField.swift in Sources */,
-				2E6DBF4C2520E224001F5545 /* Picker.swift in Sources */,
+				2E6DC01825216460001F5545 /* ViewController.swift in Sources */,
+				2E6DC01C25216460001F5545 /* AppDelegate.swift in Sources */,
+				2E6DC02625216480001F5545 /* PickerTextField.swift in Sources */,
+				2E6DC02725216480001F5545 /* PickerField.swift in Sources */,
+				2E6DC02925216480001F5545 /* Picker.swift in Sources */,
+				2E6DC01E25216460001F5545 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,9 +358,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E6DBF3B2520E1BE001F5545 /* PickerFieldTests.swift in Sources */,
-				2E6DBF4D2520E224001F5545 /* Picker.swift in Sources */,
-				2E6DBF552520E29D001F5545 /* PickerField.swift in Sources */,
-				2E6DBF4B2520E223001F5545 /* PickerTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +370,25 @@
 			targetProxy = 2E6DBF372520E1BE001F5545 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E6DC0112521645F001F5545 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E6DC0122521645F001F5545 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2E6DC0132521645F001F5545 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E6DC0142521645F001F5545 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2E6DBF3E2520E1BE001F5545 /* Debug */ = {
