@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BD6384D651A25774CC0122F /* Pods_PickerField_PickerFieldTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE37FF17FD92A10E308860F2 /* Pods_PickerField_PickerFieldTests.framework */; };
+		1A8490E0CCCF2DD992FF93B7 /* Pods_PickerField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C305563DEE0AB12A34FDAC18 /* Pods_PickerField.framework */; };
 		2E6DBF362520E1BE001F5545 /* PickerField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E6DBF2C2520E1BE001F5545 /* PickerField.framework */; };
 		2E6DBF3B2520E1BE001F5545 /* PickerFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6DBF3A2520E1BE001F5545 /* PickerFieldTests.swift */; };
 		2E6DBF3D2520E1BE001F5545 /* PickerField.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6DBF2F2520E1BE001F5545 /* PickerField.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -21,15 +21,7 @@
 		2E6DBF572520E29D001F5545 /* PickerField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E6DBF532520E29D001F5545 /* PickerField.xib */; };
 		2E6DBF5E2520E361001F5545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E6DBF5D2520E361001F5545 /* Assets.xcassets */; };
 		2E6DBF5F2520E361001F5545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E6DBF5D2520E361001F5545 /* Assets.xcassets */; };
-		2E6DBFD425215752001F5545 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6DBFD325215752001F5545 /* AppDelegate.swift */; };
-		2E6DBFD625215752001F5545 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6DBFD525215752001F5545 /* SceneDelegate.swift */; };
-		2E6DBFD825215752001F5545 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6DBFD725215752001F5545 /* ViewController.swift */; };
-		2E6DBFDB25215752001F5545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6DBFD925215752001F5545 /* Main.storyboard */; };
-		2E6DBFDD25215755001F5545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E6DBFDC25215755001F5545 /* Assets.xcassets */; };
-		2E6DBFE025215755001F5545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6DBFDE25215755001F5545 /* LaunchScreen.storyboard */; };
-		2E6DBFEB25215756001F5545 /* PickerFieldExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6DBFEA25215756001F5545 /* PickerFieldExampleTests.swift */; };
-		2E6DBFF625215756001F5545 /* PickerFieldExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6DBFF525215756001F5545 /* PickerFieldExampleUITests.swift */; };
-		5DB230E91A9E3BC3177070AC /* Pods_PickerField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BF525CE14E1327264C1658 /* Pods_PickerField.framework */; };
+		C3E86FC47EA9E95F0DEAB066 /* Pods_PickerField_PickerFieldTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F5A5D5F1ADDB0DFE44291F /* Pods_PickerField_PickerFieldTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,23 +32,11 @@
 			remoteGlobalIDString = 2E6DBF2B2520E1BE001F5545;
 			remoteInfo = PickerField;
 		};
-		2E6DBFE725215756001F5545 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2E6DBF232520E1BE001F5545 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2E6DBFD025215752001F5545;
-			remoteInfo = PickerFieldExample;
-		};
-		2E6DBFF225215756001F5545 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2E6DBF232520E1BE001F5545 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2E6DBFD025215752001F5545;
-			remoteInfo = PickerFieldExample;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28849AE91E14AC927C18FC33 /* Pods-PickerField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickerField.release.xcconfig"; path = "Target Support Files/Pods-PickerField/Pods-PickerField.release.xcconfig"; sourceTree = "<group>"; };
+		2BFBBC3C85BAB52AFB13AF3B /* Pods-PickerField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickerField.debug.xcconfig"; path = "Target Support Files/Pods-PickerField/Pods-PickerField.debug.xcconfig"; sourceTree = "<group>"; };
 		2E6DBF2C2520E1BE001F5545 /* PickerField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PickerField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E6DBF2F2520E1BE001F5545 /* PickerField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickerField.h; sourceTree = "<group>"; };
 		2E6DBF302520E1BE001F5545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -68,26 +48,10 @@
 		2E6DBF522520E29D001F5545 /* PickerField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerField.swift; sourceTree = "<group>"; };
 		2E6DBF532520E29D001F5545 /* PickerField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PickerField.xib; sourceTree = "<group>"; };
 		2E6DBF5D2520E361001F5545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2E6DBFD125215752001F5545 /* PickerFieldExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickerFieldExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E6DBFD325215752001F5545 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2E6DBFD525215752001F5545 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2E6DBFD725215752001F5545 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2E6DBFDA25215752001F5545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2E6DBFDC25215755001F5545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2E6DBFDF25215755001F5545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2E6DBFE125215755001F5545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E6DBFE625215756001F5545 /* PickerFieldExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickerFieldExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E6DBFEA25215756001F5545 /* PickerFieldExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerFieldExampleTests.swift; sourceTree = "<group>"; };
-		2E6DBFEC25215756001F5545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E6DBFF125215756001F5545 /* PickerFieldExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickerFieldExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E6DBFF525215756001F5545 /* PickerFieldExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerFieldExampleUITests.swift; sourceTree = "<group>"; };
-		2E6DBFF725215756001F5545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3900AD47BCC08484F519C23B /* Pods-PickerField-PickerFieldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickerField-PickerFieldTests.debug.xcconfig"; path = "Target Support Files/Pods-PickerField-PickerFieldTests/Pods-PickerField-PickerFieldTests.debug.xcconfig"; sourceTree = "<group>"; };
-		84BF525CE14E1327264C1658 /* Pods_PickerField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickerField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE37FF17FD92A10E308860F2 /* Pods_PickerField_PickerFieldTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickerField_PickerFieldTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3169DFB6A3D3F2C4E98712D /* Pods-PickerField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickerField.release.xcconfig"; path = "Target Support Files/Pods-PickerField/Pods-PickerField.release.xcconfig"; sourceTree = "<group>"; };
-		D99F109C6739F0183CDB40D3 /* Pods-PickerField-PickerFieldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickerField-PickerFieldTests.release.xcconfig"; path = "Target Support Files/Pods-PickerField-PickerFieldTests/Pods-PickerField-PickerFieldTests.release.xcconfig"; sourceTree = "<group>"; };
-		F3FFD51AE75DCD283FFE7DA5 /* Pods-PickerField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickerField.debug.xcconfig"; path = "Target Support Files/Pods-PickerField/Pods-PickerField.debug.xcconfig"; sourceTree = "<group>"; };
+		55379CE836B06C7D2CED912C /* Pods-PickerField-PickerFieldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickerField-PickerFieldTests.release.xcconfig"; path = "Target Support Files/Pods-PickerField-PickerFieldTests/Pods-PickerField-PickerFieldTests.release.xcconfig"; sourceTree = "<group>"; };
+		5CCCAB3395C12D57C856955D /* Pods-PickerField-PickerFieldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickerField-PickerFieldTests.debug.xcconfig"; path = "Target Support Files/Pods-PickerField-PickerFieldTests/Pods-PickerField-PickerFieldTests.debug.xcconfig"; sourceTree = "<group>"; };
+		65F5A5D5F1ADDB0DFE44291F /* Pods_PickerField_PickerFieldTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickerField_PickerFieldTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C305563DEE0AB12A34FDAC18 /* Pods_PickerField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickerField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DB230E91A9E3BC3177070AC /* Pods_PickerField.framework in Frameworks */,
+				1A8490E0CCCF2DD992FF93B7 /* Pods_PickerField.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,54 +68,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E6DBF362520E1BE001F5545 /* PickerField.framework in Frameworks */,
-				0BD6384D651A25774CC0122F /* Pods_PickerField_PickerFieldTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2E6DBFCE25215752001F5545 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2E6DBFE325215756001F5545 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2E6DBFEE25215756001F5545 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				C3E86FC47EA9E95F0DEAB066 /* Pods_PickerField_PickerFieldTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		273BDC420E48077578AD92F2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				84BF525CE14E1327264C1658 /* Pods_PickerField.framework */,
-				AE37FF17FD92A10E308860F2 /* Pods_PickerField_PickerFieldTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		2E6DBF222520E1BE001F5545 = {
 			isa = PBXGroup;
 			children = (
 				2E6DBF2E2520E1BE001F5545 /* PickerField */,
 				2E6DBF392520E1BE001F5545 /* PickerFieldTests */,
-				2E6DBFD225215752001F5545 /* PickerFieldExample */,
-				2E6DBFE925215756001F5545 /* PickerFieldExampleTests */,
-				2E6DBFF425215756001F5545 /* PickerFieldExampleUITests */,
 				2E6DBF2D2520E1BE001F5545 /* Products */,
 				755A15ADCB7ACD87F769B9DC /* Pods */,
-				273BDC420E48077578AD92F2 /* Frameworks */,
+				EABC4F8DA08B500122965419 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,9 +91,6 @@
 			children = (
 				2E6DBF2C2520E1BE001F5545 /* PickerField.framework */,
 				2E6DBF352520E1BE001F5545 /* PickerFieldTests.xctest */,
-				2E6DBFD125215752001F5545 /* PickerFieldExample.app */,
-				2E6DBFE625215756001F5545 /* PickerFieldExampleTests.xctest */,
-				2E6DBFF125215756001F5545 /* PickerFieldExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -171,7 +99,10 @@
 			isa = PBXGroup;
 			children = (
 				2E6DBF2F2520E1BE001F5545 /* PickerField.h */,
-				2E6DBFCC25215676001F5545 /* Source */,
+				2E6DBF492520E223001F5545 /* Picker.swift */,
+				2E6DBF482520E223001F5545 /* PickerTextField.swift */,
+				2E6DBF522520E29D001F5545 /* PickerField.swift */,
+				2E6DBF532520E29D001F5545 /* PickerField.xib */,
 				2E6DBF5A2520E2D7001F5545 /* Resources */,
 				2E6DBF302520E1BE001F5545 /* Info.plist */,
 			);
@@ -195,58 +126,25 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		2E6DBFCC25215676001F5545 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				2E6DBF492520E223001F5545 /* Picker.swift */,
-				2E6DBF482520E223001F5545 /* PickerTextField.swift */,
-				2E6DBF522520E29D001F5545 /* PickerField.swift */,
-				2E6DBF532520E29D001F5545 /* PickerField.xib */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		2E6DBFD225215752001F5545 /* PickerFieldExample */ = {
-			isa = PBXGroup;
-			children = (
-				2E6DBFD325215752001F5545 /* AppDelegate.swift */,
-				2E6DBFD525215752001F5545 /* SceneDelegate.swift */,
-				2E6DBFD725215752001F5545 /* ViewController.swift */,
-				2E6DBFD925215752001F5545 /* Main.storyboard */,
-				2E6DBFDC25215755001F5545 /* Assets.xcassets */,
-				2E6DBFDE25215755001F5545 /* LaunchScreen.storyboard */,
-				2E6DBFE125215755001F5545 /* Info.plist */,
-			);
-			path = PickerFieldExample;
-			sourceTree = "<group>";
-		};
-		2E6DBFE925215756001F5545 /* PickerFieldExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				2E6DBFEA25215756001F5545 /* PickerFieldExampleTests.swift */,
-				2E6DBFEC25215756001F5545 /* Info.plist */,
-			);
-			path = PickerFieldExampleTests;
-			sourceTree = "<group>";
-		};
-		2E6DBFF425215756001F5545 /* PickerFieldExampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2E6DBFF525215756001F5545 /* PickerFieldExampleUITests.swift */,
-				2E6DBFF725215756001F5545 /* Info.plist */,
-			);
-			path = PickerFieldExampleUITests;
-			sourceTree = "<group>";
-		};
 		755A15ADCB7ACD87F769B9DC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F3FFD51AE75DCD283FFE7DA5 /* Pods-PickerField.debug.xcconfig */,
-				C3169DFB6A3D3F2C4E98712D /* Pods-PickerField.release.xcconfig */,
-				3900AD47BCC08484F519C23B /* Pods-PickerField-PickerFieldTests.debug.xcconfig */,
-				D99F109C6739F0183CDB40D3 /* Pods-PickerField-PickerFieldTests.release.xcconfig */,
+				2BFBBC3C85BAB52AFB13AF3B /* Pods-PickerField.debug.xcconfig */,
+				28849AE91E14AC927C18FC33 /* Pods-PickerField.release.xcconfig */,
+				5CCCAB3395C12D57C856955D /* Pods-PickerField-PickerFieldTests.debug.xcconfig */,
+				55379CE836B06C7D2CED912C /* Pods-PickerField-PickerFieldTests.release.xcconfig */,
 			);
+			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		EABC4F8DA08B500122965419 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C305563DEE0AB12A34FDAC18 /* Pods_PickerField.framework */,
+				65F5A5D5F1ADDB0DFE44291F /* Pods_PickerField_PickerFieldTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,7 +165,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E6DBF402520E1BE001F5545 /* Build configuration list for PBXNativeTarget "PickerField" */;
 			buildPhases = (
-				1A21D13ECE9F126CBDCA741F /* [CP] Check Pods Manifest.lock */,
+				CCCAD6D0CCED93EC25EBC6A1 /* [CP] Check Pods Manifest.lock */,
 				2E6DBF272520E1BE001F5545 /* Headers */,
 				2E6DBF282520E1BE001F5545 /* Sources */,
 				2E6DBF292520E1BE001F5545 /* Frameworks */,
@@ -286,7 +184,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E6DBF432520E1BE001F5545 /* Build configuration list for PBXNativeTarget "PickerFieldTests" */;
 			buildPhases = (
-				CCF073D035B82246CA1B7ACE /* [CP] Check Pods Manifest.lock */,
+				51F462C30D3D494D3474B0E5 /* [CP] Check Pods Manifest.lock */,
 				2E6DBF312520E1BE001F5545 /* Sources */,
 				2E6DBF322520E1BE001F5545 /* Frameworks */,
 				2E6DBF332520E1BE001F5545 /* Resources */,
@@ -300,59 +198,6 @@
 			productName = PickerFieldTests;
 			productReference = 2E6DBF352520E1BE001F5545 /* PickerFieldTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		2E6DBFD025215752001F5545 /* PickerFieldExample */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2E6DBFF825215756001F5545 /* Build configuration list for PBXNativeTarget "PickerFieldExample" */;
-			buildPhases = (
-				2E6DBFCD25215752001F5545 /* Sources */,
-				2E6DBFCE25215752001F5545 /* Frameworks */,
-				2E6DBFCF25215752001F5545 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PickerFieldExample;
-			productName = PickerFieldExample;
-			productReference = 2E6DBFD125215752001F5545 /* PickerFieldExample.app */;
-			productType = "com.apple.product-type.application";
-		};
-		2E6DBFE525215756001F5545 /* PickerFieldExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2E6DBFFB25215756001F5545 /* Build configuration list for PBXNativeTarget "PickerFieldExampleTests" */;
-			buildPhases = (
-				2E6DBFE225215756001F5545 /* Sources */,
-				2E6DBFE325215756001F5545 /* Frameworks */,
-				2E6DBFE425215756001F5545 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2E6DBFE825215756001F5545 /* PBXTargetDependency */,
-			);
-			name = PickerFieldExampleTests;
-			productName = PickerFieldExampleTests;
-			productReference = 2E6DBFE625215756001F5545 /* PickerFieldExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		2E6DBFF025215756001F5545 /* PickerFieldExampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2E6DBFFE25215756001F5545 /* Build configuration list for PBXNativeTarget "PickerFieldExampleUITests" */;
-			buildPhases = (
-				2E6DBFED25215756001F5545 /* Sources */,
-				2E6DBFEE25215756001F5545 /* Frameworks */,
-				2E6DBFEF25215756001F5545 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2E6DBFF325215756001F5545 /* PBXTargetDependency */,
-			);
-			name = PickerFieldExampleUITests;
-			productName = PickerFieldExampleUITests;
-			productReference = 2E6DBFF125215756001F5545 /* PickerFieldExampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -369,17 +214,6 @@
 					};
 					2E6DBF342520E1BE001F5545 = {
 						CreatedOnToolsVersion = 12.0;
-					};
-					2E6DBFD025215752001F5545 = {
-						CreatedOnToolsVersion = 12.0;
-					};
-					2E6DBFE525215756001F5545 = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = 2E6DBFD025215752001F5545;
-					};
-					2E6DBFF025215756001F5545 = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = 2E6DBFD025215752001F5545;
 					};
 				};
 			};
@@ -398,9 +232,6 @@
 			targets = (
 				2E6DBF2B2520E1BE001F5545 /* PickerField */,
 				2E6DBF342520E1BE001F5545 /* PickerFieldTests */,
-				2E6DBFD025215752001F5545 /* PickerFieldExample */,
-				2E6DBFE525215756001F5545 /* PickerFieldExampleTests */,
-				2E6DBFF025215756001F5545 /* PickerFieldExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -424,56 +255,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2E6DBFCF25215752001F5545 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2E6DBFE025215755001F5545 /* LaunchScreen.storyboard in Resources */,
-				2E6DBFDD25215755001F5545 /* Assets.xcassets in Resources */,
-				2E6DBFDB25215752001F5545 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2E6DBFE425215756001F5545 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2E6DBFEF25215756001F5545 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1A21D13ECE9F126CBDCA741F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PickerField-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CCF073D035B82246CA1B7ACE /* [CP] Check Pods Manifest.lock */ = {
+		51F462C30D3D494D3474B0E5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -489,6 +274,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-PickerField-PickerFieldTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCCAD6D0CCED93EC25EBC6A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PickerField-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -519,32 +326,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2E6DBFCD25215752001F5545 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2E6DBFD825215752001F5545 /* ViewController.swift in Sources */,
-				2E6DBFD425215752001F5545 /* AppDelegate.swift in Sources */,
-				2E6DBFD625215752001F5545 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2E6DBFE225215756001F5545 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2E6DBFEB25215756001F5545 /* PickerFieldExampleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2E6DBFED25215756001F5545 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2E6DBFF625215756001F5545 /* PickerFieldExampleUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -553,36 +334,7 @@
 			target = 2E6DBF2B2520E1BE001F5545 /* PickerField */;
 			targetProxy = 2E6DBF372520E1BE001F5545 /* PBXContainerItemProxy */;
 		};
-		2E6DBFE825215756001F5545 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2E6DBFD025215752001F5545 /* PickerFieldExample */;
-			targetProxy = 2E6DBFE725215756001F5545 /* PBXContainerItemProxy */;
-		};
-		2E6DBFF325215756001F5545 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2E6DBFD025215752001F5545 /* PickerFieldExample */;
-			targetProxy = 2E6DBFF225215756001F5545 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		2E6DBFD925215752001F5545 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2E6DBFDA25215752001F5545 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2E6DBFDE25215755001F5545 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2E6DBFDF25215755001F5545 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2E6DBF3E2520E1BE001F5545 /* Debug */ = {
@@ -709,7 +461,7 @@
 		};
 		2E6DBF412520E1BE001F5545 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3FFD51AE75DCD283FFE7DA5 /* Pods-PickerField.debug.xcconfig */;
+			baseConfigurationReference = 2BFBBC3C85BAB52AFB13AF3B /* Pods-PickerField.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -720,26 +472,23 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = PickerField/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mernissi.PickerField;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		2E6DBF422520E1BE001F5545 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3169DFB6A3D3F2C4E98712D /* Pods-PickerField.release.xcconfig */;
+			baseConfigurationReference = 28849AE91E14AC927C18FC33 /* Pods-PickerField.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -750,25 +499,22 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = PickerField/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mernissi.PickerField;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		2E6DBF442520E1BE001F5545 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3900AD47BCC08484F519C23B /* Pods-PickerField-PickerFieldTests.debug.xcconfig */;
+			baseConfigurationReference = 5CCCAB3395C12D57C856955D /* Pods-PickerField-PickerFieldTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -788,7 +534,7 @@
 		};
 		2E6DBF452520E1BE001F5545 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D99F109C6739F0183CDB40D3 /* Pods-PickerField-PickerFieldTests.release.xcconfig */;
+			baseConfigurationReference = 55379CE836B06C7D2CED912C /* Pods-PickerField-PickerFieldTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -803,128 +549,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		2E6DBFF925215756001F5545 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 28557U83BM;
-				INFOPLIST_FILE = PickerFieldExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mernissi.PickerFieldExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		2E6DBFFA25215756001F5545 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 28557U83BM;
-				INFOPLIST_FILE = PickerFieldExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mernissi.PickerFieldExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		2E6DBFFC25215756001F5545 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 28557U83BM;
-				INFOPLIST_FILE = PickerFieldExampleTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mernissi.PickerFieldExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickerFieldExample.app/PickerFieldExample";
-			};
-			name = Debug;
-		};
-		2E6DBFFD25215756001F5545 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 28557U83BM;
-				INFOPLIST_FILE = PickerFieldExampleTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mernissi.PickerFieldExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickerFieldExample.app/PickerFieldExample";
-			};
-			name = Release;
-		};
-		2E6DBFFF25215756001F5545 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 28557U83BM;
-				INFOPLIST_FILE = PickerFieldExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mernissi.PickerFieldExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PickerFieldExample;
-			};
-			name = Debug;
-		};
-		2E6DC00025215756001F5545 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 28557U83BM;
-				INFOPLIST_FILE = PickerFieldExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mernissi.PickerFieldExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PickerFieldExample;
 			};
 			name = Release;
 		};
@@ -954,33 +578,6 @@
 			buildConfigurations = (
 				2E6DBF442520E1BE001F5545 /* Debug */,
 				2E6DBF452520E1BE001F5545 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2E6DBFF825215756001F5545 /* Build configuration list for PBXNativeTarget "PickerFieldExample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2E6DBFF925215756001F5545 /* Debug */,
-				2E6DBFFA25215756001F5545 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2E6DBFFB25215756001F5545 /* Build configuration list for PBXNativeTarget "PickerFieldExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2E6DBFFC25215756001F5545 /* Debug */,
-				2E6DBFFD25215756001F5545 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2E6DBFFE25215756001F5545 /* Build configuration list for PBXNativeTarget "PickerFieldExampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2E6DBFFF25215756001F5545 /* Debug */,
-				2E6DC00025215756001F5545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
