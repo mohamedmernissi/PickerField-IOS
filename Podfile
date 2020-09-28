@@ -12,3 +12,11 @@ target 'PickerField' do
   end
 
 end
+
+target 'PickerFieldDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for PickerFieldDemo
+  pod 'PickerField', '~> 0.1'
+end

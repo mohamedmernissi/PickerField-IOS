@@ -23,14 +23,14 @@
                     <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
                     <subviews>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Triangle" translatesAutoresizingMaskIntoConstraints="NO" id="iUs-Ps-KUE">
-                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                            <rect key="frame" x="364" y="0.0" width="50" height="50"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="50" id="Qrk-Zg-Vl4"/>
                             </constraints>
                         </imageView>
                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gnn-oX-cnd" customClass="PickerTextField" customModule="PickerField" customModuleProvider="target">
-                            <rect key="frame" x="60" y="0.0" width="354" height="50"/>
+                            <rect key="frame" x="0.0" y="0.0" width="356" height="50"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="50" id="lSH-Lg-AsG"/>
@@ -46,14 +46,13 @@
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstItem="Gnn-oX-cnd" firstAttribute="leading" secondItem="iUs-Ps-KUE" secondAttribute="trailing" constant="10" id="7KJ-BC-J2Q"/>
-                        <constraint firstAttribute="trailing" secondItem="Gnn-oX-cnd" secondAttribute="trailing" id="AHT-53-dVK"/>
-                        <constraint firstItem="iUs-Ps-KUE" firstAttribute="leading" secondItem="zMe-AO-rVU" secondAttribute="leading" id="B4N-uG-ix6"/>
-                        <constraint firstAttribute="height" constant="50" id="BuY-3L-nuh"/>
+                        <constraint firstItem="Gnn-oX-cnd" firstAttribute="leading" secondItem="zMe-AO-rVU" secondAttribute="leading" id="56W-D1-rQy"/>
+                        <constraint firstAttribute="trailing" secondItem="iUs-Ps-KUE" secondAttribute="trailing" id="BCM-zo-w0t"/>
                         <constraint firstItem="iUs-Ps-KUE" firstAttribute="top" secondItem="zMe-AO-rVU" secondAttribute="top" id="CfH-HJ-LjE"/>
                         <constraint firstAttribute="bottom" secondItem="Gnn-oX-cnd" secondAttribute="bottom" id="DZ2-yG-BG2"/>
                         <constraint firstAttribute="bottom" secondItem="iUs-Ps-KUE" secondAttribute="bottom" id="ghC-Xy-mdj"/>
                         <constraint firstItem="Gnn-oX-cnd" firstAttribute="top" secondItem="zMe-AO-rVU" secondAttribute="top" id="tCk-3v-dsc"/>
+                        <constraint firstItem="iUs-Ps-KUE" firstAttribute="leading" secondItem="Gnn-oX-cnd" secondAttribute="trailing" constant="8" id="xwl-ow-cfr"/>
                     </constraints>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">

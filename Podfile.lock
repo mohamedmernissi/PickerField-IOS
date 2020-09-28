@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: db6b17546e0ee3d83efc05d4ffccba90770208ae
+PODS:
+  - PickerField (0.1.2)
+
+DEPENDENCIES:
+  - PickerField (~> 0.1)
+
+SPEC REPOS:
+  trunk:
+    - PickerField
+
+SPEC CHECKSUMS:
+  PickerField: f37f05cd7b2a02bf082b34d695a0c9189ccba9c8
+
+PODFILE CHECKSUM: f68e46151538b0e1d05a7b6a0e89b96375199a5f
 
 COCOAPODS: 1.9.3

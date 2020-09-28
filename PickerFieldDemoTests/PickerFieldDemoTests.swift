@@ -1,14 +1,14 @@
 //
-//  PickerFieldExampleTests.swift
-//  PickerFieldExampleTests
+//  PickerFieldDemoTests.swift
+//  PickerFieldDemoTests
 //
 //  Created by mohamedmernissi on 9/28/20.
 //
 
 import XCTest
-@testable import PickerFieldExample
+@testable import PickerFieldDemo
 
-class PickerFieldExampleTests: XCTestCase {
+class PickerFieldDemoTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

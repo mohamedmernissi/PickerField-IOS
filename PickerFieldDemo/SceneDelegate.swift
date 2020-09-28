@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  PickerFieldExample
+//  PickerFieldDemo
 //
 //  Created by mohamedmernissi on 9/28/20.
 //
