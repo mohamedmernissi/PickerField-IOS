@@ -66,7 +66,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "11.0"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
+     spec.ios.deployment_target = "11.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -77,9 +77,7 @@ Pod::Spec.new do |spec|
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
-
-  spec.source       = { :git => "https://github.com/mohamedmernissi/PickerField-IOS.git", :branch => "master", :tag => "#{spec.version}" }
-
+  spec.source        = { :git => "https://github.com/mohamedmernissi/PickerField-IOS.git", :tag => "#{spec.version}" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
