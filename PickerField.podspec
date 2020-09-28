@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PickerField"
-  spec.version      = "0.1.0"
-  spec.summary      = "Using pickerviews has never been easier!. UIPickerview combined with UITextView, will save you the time of dealing with each pickerview with it's own TextField. "
+  spec.version      = "0.1.1"
+  spec.summary      = "Using pickerviews has never been easier!"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+    . UIPickerview combined with UITextView, will save you the time of dealing with each pickerview with it's own TextField.
                    DESC
 
   spec.homepage     = "https://github.com/mohamedmernissi/PickerField-IOS"
@@ -39,7 +40,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.license      = "MIT"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
