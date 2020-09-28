@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PickerField"
-  spec.version      = "0.1.1"
+  spec.version      = "0.1.2"
   spec.summary      = "Using pickerviews has never been easier!"
 
   # This description is used to generate tags and improve search results.
